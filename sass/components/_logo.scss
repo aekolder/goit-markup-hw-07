@@ -1,0 +1,13 @@
+.logo{
+	@include line_height_calc(26px, 31px);
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	color: var(--main-text-color);
+	margin: 0 93px 0 0;
+}
+
+.logo__first-part {
+    color: var(--accent-color);
+}
