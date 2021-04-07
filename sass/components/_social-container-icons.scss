@@ -1,0 +1,25 @@
+.footer-container__social-container-icon {
+    fill: currentColor;
+}
+
+.footer-container__social-container-link {
+    width: 44px;
+    height: 44px;
+    color: #AFB1B8;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+	&:focus{
+		color: #fff;
+		background: var(--accent-color);
+	}
+}
+
+.footer-container__social-container-item:not(:last-child){
+	margin-right: 10px;
+}
