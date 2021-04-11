@@ -47,7 +47,7 @@
 }
 
 
-.navigation__list-item:not(:last-child) {
+.navigation__item:not(:last-child) {
     margin: 0 50px 0 0;
 }
 
@@ -74,7 +74,7 @@
 }	
 
 
-.header-contacts__link {
+.header-contacts__list {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -86,7 +86,7 @@
 }
 
 
-.navigation__list-link:hover, .navigation__list-link:focus, .header-contacts__link:hover, .header-contacts__link:focus {
+.navigation__list-list:hover, .navigation__list-list:focus, .header-contacts__list:hover, .header-contacts__list:focus {
     color: var(--accent-color);
 }
 
@@ -98,7 +98,8 @@ header::after {
     border-bottom: 1px solid #ECECEC;
 }
 
-.header-wrap {
+.header__wrap {
+    display: flex;
     padding-top: 25px;
     padding-bottom: 25px;
 }

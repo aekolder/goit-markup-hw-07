@@ -4,19 +4,19 @@
 }
 
 
-.rules__header{
+.rules-list__header{
 	visibility: hidden;
 	position: absolute;
 }
 
-.rules__text{
+.rules__list-text{
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
 }
 
-.rules__secondary-header{
+.rules__list-title{
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -26,22 +26,23 @@
 }
 
 
-.rules-list__item:not(:last-child) {
+.rules__list-item:not(:last-child) {
     margin-right: 30px;
 }
 
 
-.rules-list__item {
+.rules__list-item {
     width: 270px;
 }
 
 
 .rules-list {
+    display: flex;
     justify-content: center;
 }
 
 
-.rules-list__container {
+.rules__list-container {
     display: flex;
     align-items: center;
     justify-content: center;

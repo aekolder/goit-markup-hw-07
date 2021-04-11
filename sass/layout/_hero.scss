@@ -4,7 +4,7 @@
 	cursor: pointer;
 }
 
-.hero-header {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -21,7 +21,7 @@
     background-color: #2F303A;
 }
 
-.hero-button {
+.hero__button {
     background: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
@@ -41,16 +41,9 @@
 
 
 
-.hero > .flex-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    }
 
 
-.hero-bg-wrap {
+.hero {
     max-width: 1600px;
     margin: 0 auto;
     background-image: linear-gradient(
@@ -59,7 +52,7 @@
     
 }
 
-.hero-bg-wrap .flex-container {
+.hero .flex-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
